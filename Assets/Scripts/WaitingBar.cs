@@ -31,11 +31,11 @@ public class ScrollBarSizeController : MonoBehaviour
         
         if (SceneLoader.lastScene == "Begin")
         {
-            SceneManager.LoadScene("Back");
-            SceneLoader.lastScene = "Back";
+            SceneManager.LoadScene("PlayerList");
+            SceneLoader.lastScene = "PlayerList";
         }
         
-        else if(SceneLoader.lastScene == "Back")
+        else if(SceneLoader.lastScene == "PlayerList")
         {
             SceneManager.LoadScene("Begin");
             SceneLoader.lastScene = "Begin";

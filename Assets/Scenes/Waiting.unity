@@ -680,6 +680,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b81de4838b406a47b13aacb34e5c33c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playButton: {fileID: 0}
+  backButton: {fileID: 0}
   myScrollBar: {fileID: 904159521}
 --- !u!4 &1931612868
 Transform:
